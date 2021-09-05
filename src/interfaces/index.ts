@@ -1,9 +1,9 @@
 export interface Parameters {
+  type: string;
+  name: string;
+  inputs: {
     type: string;
-    funcName: string;
-    inputs: {
-        type: string;
-        value: string;
-        name?: string;
-    }[];
-};
+    value: string;
+    name?: string;
+  }[];
+}
